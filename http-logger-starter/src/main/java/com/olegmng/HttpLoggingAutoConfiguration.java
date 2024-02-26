@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 public class HttpLoggingAutoConfiguration {
 
     @Bean
-    public LoggingFilter loggingFilter(){
+    LoggingFilter loggingFilter(){
         return new LoggingFilter();
     }
 }
