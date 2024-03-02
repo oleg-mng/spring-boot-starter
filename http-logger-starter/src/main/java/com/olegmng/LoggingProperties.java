@@ -5,7 +5,7 @@ import org.slf4j.event.Level;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 @Data
-@ConfigurationProperties("http.properties")
+@ConfigurationProperties("http.logging")
 public class LoggingProperties {
     private boolean logBody = false;
 
